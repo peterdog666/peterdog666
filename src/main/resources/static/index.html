@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 小助手</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>🚀 AI 小助手</h1>
+      <p class="subtitle">输入你的问题，后端会调用大模型给出回答。</p>
+
+      <section id="chatBox" class="chat-box"></section>
+
+      <form id="chatForm" class="chat-form">
+        <textarea
+          id="message"
+          placeholder="例如：帮我写一段自我介绍"
+          required
+        ></textarea>
+        <button type="submit">发送</button>
+      </form>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
